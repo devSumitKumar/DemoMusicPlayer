@@ -19,6 +19,8 @@
 		015BCC282101DAD4009D8264 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015BCC272101DAD4009D8264 /* AudioToolbox.framework */; };
 		015BCC2A2101DC5A009D8264 /* SongQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015BCC292101DC5A009D8264 /* SongQuery.swift */; };
 		015BCC2C2101E245009D8264 /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015BCC2B2101E245009D8264 /* MusicTableViewCell.swift */; };
+		01772A732105D7CE0047F6B5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 01772A722105D7CE0047F6B5 /* README.md */; };
+		0177EA81210C440A002CDAD5 /* MusiqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0177EA80210C440A002CDAD5 /* MusiqViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		015BCC272101DAD4009D8264 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		015BCC292101DC5A009D8264 /* SongQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongQuery.swift; sourceTree = "<group>"; };
 		015BCC2B2101E245009D8264 /* MusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
+		01772A722105D7CE0047F6B5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0177EA80210C440A002CDAD5 /* MusiqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusiqViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		015BCBE82101C4D8009D8264 = {
 			isa = PBXGroup;
 			children = (
+				01772A722105D7CE0047F6B5 /* README.md */,
 				015BCBF32101C4D9009D8264 /* DemoMusicPlayer */,
 				015BCC082101C4DC009D8264 /* DemoMusicPlayerTests */,
 				015BCC132101C4DC009D8264 /* DemoMusicPlayerUITests */,
@@ -119,6 +124,7 @@
 				015BCC002101C4DB009D8264 /* Info.plist */,
 				015BCC292101DC5A009D8264 /* SongQuery.swift */,
 				015BCC2B2101E245009D8264 /* MusicTableViewCell.swift */,
+				0177EA80210C440A002CDAD5 /* MusiqViewController.swift */,
 			);
 			path = DemoMusicPlayer;
 			sourceTree = "<group>";
@@ -257,6 +263,7 @@
 			files = (
 				015BCBFF2101C4DB009D8264 /* LaunchScreen.storyboard in Resources */,
 				015BCBFC2101C4DB009D8264 /* Assets.xcassets in Resources */,
+				01772A732105D7CE0047F6B5 /* README.md in Resources */,
 				015BCBFA2101C4D9009D8264 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0177EA81210C440A002CDAD5 /* MusiqViewController.swift in Sources */,
 				015BCC2A2101DC5A009D8264 /* SongQuery.swift in Sources */,
 				015BCBF72101C4D9009D8264 /* ViewController.swift in Sources */,
 				015BCBF52101C4D9009D8264 /* AppDelegate.swift in Sources */,
@@ -391,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -445,7 +453,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -461,6 +469,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 2898AER2EQ;
 				INFOPLIST_FILE = DemoMusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,6 +490,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 2898AER2EQ;
 				INFOPLIST_FILE = DemoMusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

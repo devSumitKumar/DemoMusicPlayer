@@ -2,8 +2,8 @@
 //  MusicTableViewCell.swift
 //  DemoMusicPlayer
 //
-//  Created by Polosoft on 20/07/18.
-//  Copyright © 2018 Polosoft. All rights reserved.
+//  Created by SumitKumar on 20/07/18.
+//  Copyright © 2018 SumitKumar. All rights reserved.
 //
 
 import UIKit
