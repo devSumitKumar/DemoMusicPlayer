@@ -7,4 +7,6 @@ This is a demo applicationwith following features :
 3 - Music can be play using control center if the application is in background status
 
 
+Reference : 
 
+![Music-Recording](https://user-images.githubusercontent.com/35481452/74909027-65432b00-53dd-11ea-9231-a4d4275d5391.gif
